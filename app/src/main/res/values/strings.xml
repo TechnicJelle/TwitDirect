@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">TwitRedirect</string>
+	<string name="app_name">TwitRedirect</string>
+	<string name="title">Welcome to TwitRedirect!</string>
+	<string name="explanation">If you are running Android 12 or newer,
+		you need to manually register the links that this app may open,
+		due to privacy and security reasons.\nThis
+		is not needed on older versions of Android, because there,
+		whenever you click on a supported link, you will directly be offered an options menu
+		with all apps that can open that type of link.\nYou
+		can then choose whether you want to only [JustOnce] or [Always]
+		open that type of link with that app.\nI
+		recommend choosing to [Always] open Twitter redirect links with TwitRedirect.</string>
+	<string name="instruction">In the settings menu that this button opens,
+		tap [+AddLink] and add every link you want to redirect.</string>
+	<string name="button_text">Click me to go to the link settings!</string>
+	<string name="not_necessary">Not necessary on this device</string>
 </resources>
