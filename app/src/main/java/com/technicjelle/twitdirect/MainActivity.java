@@ -1,4 +1,4 @@
-package com.technicjelle.twitredirect;
+package com.technicjelle.twitdirect;
 
 import android.content.Intent;
 import android.net.Uri;

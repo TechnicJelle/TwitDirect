@@ -19,5 +19,5 @@ dependencyResolutionManagement {
 	}
 }
 
-rootProject.name = "TwitRedirect"
+rootProject.name = "TwitDirect"
 include(":app")

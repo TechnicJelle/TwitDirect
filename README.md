@@ -1,6 +1,6 @@
-# TwitRedirect
+# TwitDirect
 
-TwitRedirect is an Android 8.0+ app to redirect fxtwitter/vxtwitter/etc to the official Twitter app, instead of going through the browser.
+TwitDirect is an Android 8.0+ app to redirect fxtwitter/vxtwitter/etc to the official Twitter app, instead of going through the browser.
 
 We all know how Twitter embeds often don't work well, and don't look great.  
 So services like [FxTwitter](https://github.com/FixTweet/FxTwitter) and [VxTwitter](https://github.com/dylanpdx/BetterTwitFix)

@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-	namespace = "com.technicjelle.twitredirect"
+	namespace = "com.technicjelle.twitdirect"
 	compileSdk = 34
 
 	defaultConfig {
-		applicationId = "com.technicjelle.twitredirect"
+		applicationId = "com.technicjelle.twitdirect"
 		minSdk = 26
 		targetSdk = 34
 		versionCode = 1
