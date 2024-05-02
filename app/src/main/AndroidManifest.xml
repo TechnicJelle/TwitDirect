@@ -15,6 +15,16 @@
 		<activity
 			android:name=".MainActivity"
 			android:exported="true">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".RedirectActivity"
+			android:excludeFromRecents="true"
+			android:exported="true">
 			<tools:validation testUrl="https://fxtwitter.com" />
 			<tools:validation testUrl="http://fxtwitter.com" />
 
@@ -31,11 +41,9 @@
 			<tools:validation testUrl="http://fixvx.com" />
 
 			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
-			<intent-filter android:autoVerify="true">
+			<intent-filter android:autoVerify="false">
 				<action android:name="android.intent.action.VIEW" />
 
 				<category android:name="android.intent.category.DEFAULT" />
@@ -45,7 +53,7 @@
 				<data android:scheme="https" />
 				<data android:host="fxtwitter.com" />
 			</intent-filter>
-			<intent-filter android:autoVerify="true">
+			<intent-filter android:autoVerify="false">
 				<action android:name="android.intent.action.VIEW" />
 
 				<category android:name="android.intent.category.DEFAULT" />
@@ -55,7 +63,7 @@
 				<data android:scheme="https" />
 				<data android:host="fixupx.com" />
 			</intent-filter>
-			<intent-filter android:autoVerify="true">
+			<intent-filter android:autoVerify="false">
 				<action android:name="android.intent.action.VIEW" />
 
 				<category android:name="android.intent.category.DEFAULT" />
@@ -65,7 +73,7 @@
 				<data android:scheme="https" />
 				<data android:host="twittpr.com" />
 			</intent-filter>
-			<intent-filter android:autoVerify="true">
+			<intent-filter android:autoVerify="false">
 				<action android:name="android.intent.action.VIEW" />
 
 				<category android:name="android.intent.category.DEFAULT" />
@@ -75,7 +83,7 @@
 				<data android:scheme="https" />
 				<data android:host="vxtwitter.com" />
 			</intent-filter>
-			<intent-filter android:autoVerify="true">
+			<intent-filter android:autoVerify="false">
 				<action android:name="android.intent.action.VIEW" />
 
 				<category android:name="android.intent.category.DEFAULT" />
