@@ -11,3 +11,5 @@ This is due to the Twitter app not being registered to open those types of links
 So to solve this, I made a small redirector app that seamlessly directly opens them in the official Twitter app.
 
 This app was made in one evening, for one of my friends who uses the Twitter app a lot and was mildly miffed by this.
+
+## [Click here to download!](../../releases/latest)
