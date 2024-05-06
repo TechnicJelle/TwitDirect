@@ -25,19 +25,29 @@
 			android:excludeFromRecents="true"
 			android:exported="true">
 			<tools:validation testUrl="https://fxtwitter.com" />
+			<tools:validation testUrl="https://d.fxtwitter.com" />
 			<tools:validation testUrl="http://fxtwitter.com" />
+			<tools:validation testUrl="http://d.fxtwitter.com" />
 
 			<tools:validation testUrl="https://fixupx.com" />
+			<tools:validation testUrl="https://d.fixupx.com" />
 			<tools:validation testUrl="http://fixupx.com" />
+			<tools:validation testUrl="http://d.fixupx.com" />
 
 			<tools:validation testUrl="https://twittpr.com" />
+			<tools:validation testUrl="https://d.twittpr.com" />
 			<tools:validation testUrl="http://twittpr.com" />
+			<tools:validation testUrl="http://d.twittpr.com" />
 
 			<tools:validation testUrl="https://vxtwitter.com" />
+			<tools:validation testUrl="https://d.vxtwitter.com" />
 			<tools:validation testUrl="http://vxtwitter.com" />
+			<tools:validation testUrl="http://d.vxtwitter.com" />
 
 			<tools:validation testUrl="https://fixvx.com" />
+			<tools:validation testUrl="https://d.fixvx.com" />
 			<tools:validation testUrl="http://fixvx.com" />
+			<tools:validation testUrl="http://d.fixvx.com" />
 
 			<intent-filter>
 				<category android:name="android.intent.category.LAUNCHER" />
@@ -51,6 +61,7 @@
 				<data android:scheme="http" />
 				<data android:scheme="https" />
 				<data android:host="fxtwitter.com" />
+				<data android:host="*.fxtwitter.com" />
 			</intent-filter>
 			<intent-filter android:autoVerify="false">
 				<action android:name="android.intent.action.VIEW" />
@@ -61,6 +72,7 @@
 				<data android:scheme="http" />
 				<data android:scheme="https" />
 				<data android:host="fixupx.com" />
+				<data android:host="*.fixupx.com" />
 			</intent-filter>
 			<intent-filter android:autoVerify="false">
 				<action android:name="android.intent.action.VIEW" />
@@ -71,6 +83,7 @@
 				<data android:scheme="http" />
 				<data android:scheme="https" />
 				<data android:host="twittpr.com" />
+				<data android:host="*.twittpr.com" />
 			</intent-filter>
 			<intent-filter android:autoVerify="false">
 				<action android:name="android.intent.action.VIEW" />
@@ -81,6 +94,7 @@
 				<data android:scheme="http" />
 				<data android:scheme="https" />
 				<data android:host="vxtwitter.com" />
+				<data android:host="*.vxtwitter.com" />
 			</intent-filter>
 			<intent-filter android:autoVerify="false">
 				<action android:name="android.intent.action.VIEW" />
@@ -91,6 +105,7 @@
 				<data android:scheme="http" />
 				<data android:scheme="https" />
 				<data android:host="fixvx.com" />
+				<data android:host="*.fixvx.com" />
 			</intent-filter>
 		</activity>
 	</application>
