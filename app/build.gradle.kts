@@ -9,7 +9,7 @@ android {
 	defaultConfig {
 		applicationId = "com.technicjelle.twitdirect"
 		minSdk = 26
-		targetSdk = 34
+		targetSdk = 32
 		versionCode = 3
 		versionName = "1.1"
 
