@@ -1,0 +1,38 @@
+package com.technicjelle.twitdirect;
+
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class BiskyRedirectActivity extends AppCompatActivity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+
+		// ATTENTION: This was auto-generated to handle app links.
+		Intent appLinkIntent = getIntent();
+		String appLinkAction = appLinkIntent.getAction();
+		Uri appLinkData = appLinkIntent.getData();
+		// END ATTENTION
+
+		// If appLinkData is null, the app was probably opened directly, without a link, so cancel the activity
+		if (appLinkData == null) {
+			finish();
+			return;
+		}
+
+		String path = appLinkData.toString().replaceFirst("^https?://[^/]+/", ""); // Remove scheme and domain/host
+		Uri redirectURI = Uri.parse(appLinkData.getScheme() + "://bsky.app/" + path);
+
+		Intent intent = new Intent(appLinkAction, redirectURI);
+		Toast.makeText(this, "Redirecting to Bluesky...", Toast.LENGTH_SHORT).show();
+		startActivity(intent);
+
+		// Finish the activity so it doesn't stay in the back stack
+		finish();
+	}
+}
