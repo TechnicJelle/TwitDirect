@@ -25,12 +25,11 @@ public class TwitterRedirectActivity extends AppCompatActivity {
 			return;
 		}
 
-		Toast.makeText(this, "Redirecting to Twitter...", Toast.LENGTH_SHORT).show();
-
 		String path = appLinkData.toString().replaceFirst("^https?://[^/]+/", ""); // Remove scheme and domain/host
 		Uri redirectURI = Uri.parse(appLinkData.getScheme() + "://twitter.com/" + path);
 
 		Intent intent = new Intent(appLinkAction, redirectURI);
+		Toast.makeText(this, "Redirecting to Twitter...", Toast.LENGTH_SHORT).show();
 		startActivity(intent);
 
 		// Finish the activity so it doesn't stay in the back stack
