@@ -21,6 +21,28 @@
 			</intent-filter>
 		</activity>
 		<activity
+			android:name=".TumblrRedirectActivity"
+			android:excludeFromRecents="true"
+			android:exported="true">
+			<tools:validation testUrl="https://tpmblr.com" />
+			<tools:validation testUrl="https://blogname.tpmblr.com" />
+
+			<intent-filter>
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			<intent-filter android:autoVerify="false">
+				<action android:name="android.intent.action.VIEW" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+
+				<data android:scheme="http" />
+				<data android:scheme="https" />
+				<data android:host="tpmblr.com" />
+				<data android:host="*.tpmblr.com" />
+			</intent-filter>
+		</activity>
+		<activity
 			android:name=".TwitterRedirectActivity"
 			android:excludeFromRecents="true"
 			android:exported="true">
