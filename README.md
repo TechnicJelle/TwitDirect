@@ -19,3 +19,7 @@ This app was made in one evening, for one of my friends who uses the Twitter app
 
 ![demonstration gif](.github/readme_assets/demonstration.gif)  
 Demonstration recording kindly provided by [@Stvff](https://github.com/Stvff/)
+
+![android settings](.github/readme_assets/android_settings.png)
+
+![the app](.github/readme_assets/the_app.png)
