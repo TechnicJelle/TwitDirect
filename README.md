@@ -16,3 +16,6 @@ So to solve this, I made a small redirector app that seamlessly directly opens t
 This app was made in one evening, for one of my friends who uses the Twitter app a lot and was mildly miffed by this.
 
 ## [Click here to download!](../../releases/latest)
+
+![demonstration gif](.github/readme_assets/demonstration.gif)  
+Demonstration recording kindly provided by [@Stvff](https://github.com/Stvff/)
