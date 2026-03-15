@@ -29,7 +29,7 @@
 			<intent-filter>
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
-			<intent-filter android:autoVerify="false">
+			<intent-filter android:autoVerify="true">
 				<action android:name="android.intent.action.VIEW" />
 
 				<category android:name="android.intent.category.DEFAULT" />
@@ -37,8 +37,8 @@
 
 				<data android:scheme="http" />
 				<data android:scheme="https" />
-				<data android:host="bskyx.app" />
 				<data android:host="*.bskyx.app" />
+				<data android:host="bskyx.app" />
 			</intent-filter>
 		</activity>
 		<activity
@@ -51,7 +51,7 @@
 			<intent-filter>
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
-			<intent-filter android:autoVerify="false">
+			<intent-filter android:autoVerify="true">
 				<action android:name="android.intent.action.VIEW" />
 
 				<category android:name="android.intent.category.DEFAULT" />
@@ -59,8 +59,8 @@
 
 				<data android:scheme="http" />
 				<data android:scheme="https" />
-				<data android:host="tpmblr.com" />
 				<data android:host="*.tpmblr.com" />
+				<data android:host="tpmblr.com" />
 			</intent-filter>
 		</activity>
 		<activity
@@ -95,7 +95,7 @@
 			<intent-filter>
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
-			<intent-filter android:autoVerify="false">
+			<intent-filter android:autoVerify="true">
 				<action android:name="android.intent.action.VIEW" />
 
 				<category android:name="android.intent.category.DEFAULT" />
@@ -103,10 +103,10 @@
 
 				<data android:scheme="http" />
 				<data android:scheme="https" />
-				<data android:host="fxtwitter.com" />
 				<data android:host="*.fxtwitter.com" />
+				<data android:host="fxtwitter.com" />
 			</intent-filter>
-			<intent-filter android:autoVerify="false">
+			<intent-filter android:autoVerify="true">
 				<action android:name="android.intent.action.VIEW" />
 
 				<category android:name="android.intent.category.DEFAULT" />
@@ -114,10 +114,10 @@
 
 				<data android:scheme="http" />
 				<data android:scheme="https" />
-				<data android:host="fixupx.com" />
 				<data android:host="*.fixupx.com" />
+				<data android:host="fixupx.com" />
 			</intent-filter>
-			<intent-filter android:autoVerify="false">
+			<intent-filter android:autoVerify="true">
 				<action android:name="android.intent.action.VIEW" />
 
 				<category android:name="android.intent.category.DEFAULT" />
@@ -125,10 +125,10 @@
 
 				<data android:scheme="http" />
 				<data android:scheme="https" />
-				<data android:host="twittpr.com" />
 				<data android:host="*.twittpr.com" />
+				<data android:host="twittpr.com" />
 			</intent-filter>
-			<intent-filter android:autoVerify="false">
+			<intent-filter android:autoVerify="true">
 				<action android:name="android.intent.action.VIEW" />
 
 				<category android:name="android.intent.category.DEFAULT" />
@@ -136,10 +136,10 @@
 
 				<data android:scheme="http" />
 				<data android:scheme="https" />
-				<data android:host="vxtwitter.com" />
 				<data android:host="*.vxtwitter.com" />
+				<data android:host="vxtwitter.com" />
 			</intent-filter>
-			<intent-filter android:autoVerify="false">
+			<intent-filter android:autoVerify="true">
 				<action android:name="android.intent.action.VIEW" />
 
 				<category android:name="android.intent.category.DEFAULT" />
@@ -147,8 +147,8 @@
 
 				<data android:scheme="http" />
 				<data android:scheme="https" />
-				<data android:host="fixvx.com" />
 				<data android:host="*.fixvx.com" />
+				<data android:host="fixvx.com" />
 			</intent-filter>
 		</activity>
 	</application>
