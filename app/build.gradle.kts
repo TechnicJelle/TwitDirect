@@ -1,15 +1,17 @@
+import com.android.build.api.dsl.ApplicationExtension
+
 plugins {
 	alias(libs.plugins.android.application)
 }
 
-android {
+configure<ApplicationExtension> {
 	namespace = "com.technicjelle.twitdirect"
-	compileSdk = 34
+	compileSdk = 36
 
 	defaultConfig {
 		applicationId = "com.technicjelle.twitdirect"
 		minSdk = 26
-		targetSdk = 35
+		targetSdk = 36
 		versionCode = 3
 		versionName = "1.1"
 
@@ -26,8 +28,8 @@ android {
 		}
 	}
 	compileOptions {
-		sourceCompatibility = JavaVersion.VERSION_11
-		targetCompatibility = JavaVersion.VERSION_11
+		sourceCompatibility = JavaVersion.VERSION_17
+		targetCompatibility = JavaVersion.VERSION_17
 	}
 }
 
